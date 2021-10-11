@@ -1,0 +1,27 @@
+{
+  "name": "attivilog-desafio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Eliakim",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "@google/maps": "^1.1.3",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "ejs-mate": "^3.0.0",
+    "express": "^4.17.1",
+    "geohash": "^0.0.1",
+    "leaflet": "^1.7.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.7.0",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13",
+    "sequelize-cli": "^6.2.0",
+    "sucrase": "^3.20.2"
+  }
+}
